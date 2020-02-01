@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'myblognlq.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-         default='postgres://postgres:postgres@127.0.0.1:5432/myblognlq'
+        default='postgres://postgres:postgres@127.0.0.1:5432/myblognlq'
         ),
     }
 
